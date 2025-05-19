@@ -17,7 +17,7 @@ This repository showcases my projects, skills, and experience.
 
 ## 📫 Contact
 
-- **Email:** your.email@example.com
+- **Email:** shivanand916232@gmail.com
 - **GitHub:** [Your GitHub](https://github.com/shivanand91)
 
 ---

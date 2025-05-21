@@ -4,17 +4,17 @@ import { Link } from 'react-router-dom';
 
 const projects = [
     {
-        title: 'Modern Portfolio',
+        title: 'GitHub Info Fetcher',
         description: 'A sleek and modern portfolio website built with React and styled-components.',
         image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=600&q=80',
-        github: 'https://github.com/yourusername/portfolio',
+        github: 'https://github.com/shivanand91/githubinfofetcher',
         demo: 'https://yourportfolio.com',
     },
     {
-        title: 'E-commerce Store',
+        title: 'Portfolio',
         description: 'A responsive e-commerce store with shopping cart and payment integration.',
         image: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80',
-        github: 'https://github.com/yourusername/ecommerce',
+        github: 'https://github.com/shivanand91/portfolio',
         demo: 'https://yourecommerce.com',
     },
     {

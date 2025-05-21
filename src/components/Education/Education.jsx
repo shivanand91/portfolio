@@ -9,7 +9,7 @@ const educations = [
         institution: "BN College of Engineering and Technology Lucknow, Uttar Pradesh",
         year: "2022 - 2026",
         grade: "8.0 SGPA",
-        link: "https://www.abcuniversity.edu",
+        link: "https://www.bncet.com",
     },
     {
         degree: "12th Class",

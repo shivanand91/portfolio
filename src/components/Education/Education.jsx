@@ -14,7 +14,7 @@ const educations = [
     {
         degree: "12th Class",
         field: "Science",
-        Board: "Bihar School Examination Board, Patna",
+        institution: "Bihar School Examination Board, Patna",
         year: "2019 - 2021",
         grade: "72%",
         link: "https://www.bseb.in",

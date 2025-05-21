@@ -51,7 +51,7 @@ const Hero = () => {
         <div className="h-10 mb-6 flex items-center justify-center min-w-[200px] space-x-1">
           <h3 className='text-lg sm:text-xl md:text-2xl text-gray-300 font-medium transition-opacity duration-400'>I am a  
           <span
-            className={`text-lg sm:text-xl md:text-2xl text-yellow-300 font-medium transition-opacity duration-400 ${
+            className={`text-lg sm:text-xl md:text-2xl text-yellow-300 font-bold transition-opacity duration-400 ${
               fade ? 'opacity-100' : 'opacity-0'
             }`}
             >

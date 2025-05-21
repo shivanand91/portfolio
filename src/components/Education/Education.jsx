@@ -5,19 +5,19 @@ import { Link } from "react-router-dom";
 const educations = [
     {
         degree: "Bachelor of Technology",
-        field: "Computer Science",
-        institution: "ABC University",
-        year: "2018 - 2022",
-        grade: "8.7 CGPA",
+        field: "Computer Science and Engineering",
+        institution: "BN College of Engineering and Technology Lucknow, Uttar Pradesh",
+        year: "2022 - 2026",
+        grade: "8.0 SGPA",
         link: "https://www.abcuniversity.edu",
     },
     {
-        degree: "Higher Secondary",
+        degree: "12th Class",
         field: "Science",
-        institution: "XYZ School",
-        year: "2016 - 2018",
-        grade: "92%",
-        link: "https://www.xyzschool.edu",
+        Board: "Bihar School Examination Board, Patna",
+        year: "2019 - 2021",
+        grade: "72%",
+        link: "https://www.bseb.in",
     },
 ];
 

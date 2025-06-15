@@ -1,56 +1,61 @@
 import React from 'react';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import portfolio from '../../assets/portfolio.png'
+import github from '../../assets/github.png'
+import YouTube from '../../assets/YouTube.png'
+import Employee from '../../assets/Employee.png'
+import CRUD from '../../assets/CRUD.png'
 
 const projects = [
     {
         title: 'GitHub Info Fetcher',
-        description: 'A sleek and modern portfolio website built with React and styled-components.',
-        image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=600&q=80',
+        description: 'A tool to fetch and display GitHub user information, repositories, and more.',
+        image: github,
         github: 'https://github.com/shivanand91/githubinfofetcher',
-        demo: 'https://yourportfolio.com',
+        demo: 'https://githubinfofetch.vercel.app/',
     },
     {
         title: 'Portfolio',
-        description: 'A responsive e-commerce store with shopping cart and payment integration.',
-        image: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80',
+        description: 'A personal portfolio website showcasing my projects,skills, education and experience.',
+        image: portfolio,
         github: 'https://github.com/shivanand91/portfolio',
-        demo: 'https://yourecommerce.com',
+        demo: 'https://portfolio-pink-theta-60.vercel.app/',
     },
     {
-        title: 'E-commerce Store',
-        description: 'A responsive e-commerce store with shopping cart and payment integration.',
-        image: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80',
+        title: 'VideoTube with Ai',
+        description: 'A video streaming platform with Ai Integration for automatic video captioning and Thumbnail.',
+        image: '#',
         github: 'https://github.com/yourusername/ecommerce',
         demo: 'https://yourecommerce.com',
     },
     {
-        title: 'E-commerce Store',
-        description: 'A responsive e-commerce store with shopping cart and payment integration.',
-        image: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80',
-        github: 'https://github.com/yourusername/ecommerce',
-        demo: 'https://yourecommerce.com',
+        title: 'CRUD Application',
+        description: 'A simple CRUD application for managing tasks like add task, delete and update.',
+        image: CRUD,
+        github: 'https://github.com/shivanand91/crud-project.git',
+        demo: '#',
     },
     {
-        title: 'E-commerce Store',
-        description: 'A responsive e-commerce store with shopping cart and payment integration.',
-        image: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80',
-        github: 'https://github.com/yourusername/ecommerce',
-        demo: 'https://yourecommerce.com',
+        title: 'YouTube Backend',
+        description: 'A backend service for a YouTube-like application, handling video uploads, user authentication, and more.',
+        image: YouTube,
+        github: 'https://github.com/shivanand91/Backend.git',
+        demo: '#',
     },
     {
-        title: 'E-commerce Store',
-        description: 'A responsive e-commerce store with shopping cart and payment integration.',
-        image: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80',
-        github: 'https://github.com/yourusername/ecommerce',
-        demo: 'https://yourecommerce.com',
+        title: 'Employee Management System',
+        description: 'A web application for managing employee records, including CRUD operations and search functionality.',
+        image: Employee,
+        github: 'https://github.com/shivanand91/employeemanagement.git',
+        demo: '#',
     },
     // Add more projects as needed
 ];
 
 const Project = () => {
     return (
-        <section className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-12 px-4 font-inter">
+        <section className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-8 px-4 font-inter">
             <h2 className="text-white text-center text-4xl md:text-5xl mb-8 tracking-wider font-bold">
                 My Projects
             </h2>

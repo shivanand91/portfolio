@@ -4,7 +4,7 @@ import profile from '../../assets/profile.jpg';
 
 const About = () => {
     return (
-        <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 px-4 py-12">
+        <div className="flex items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 px-4 py-13">
             <div className="bg-gradient-to-br from-gray-800 via-gray-900 to-gray-800 rounded-3xl shadow-2xl flex flex-col md:flex-row w-full max-w-5xl overflow-hidden animate-fade-in border border-gray-700">
                 {/* Left Side - About Info */}
                 <div className="md:w-1/2 p-10 flex flex-col justify-center animate-slide-in-left">
@@ -24,8 +24,8 @@ const About = () => {
                     </Link>
                 </div>
                 {/* Right Side - Photo */}
-                <div className="md:w-1/2 flex items-center justify-center bg-gradient-to-tr from-indigo-900 via-gray-900 to-purple-900 relative animate-slide-in-right">
-                    <div className="relative">
+                <div className="md:w-1/2 py-4 flex items-center justify-center bg-gradient-to-tr from-indigo-900 via-gray-900 to-purple-900 relative animate-slide-in-right">
+                    <div className="relative ">
                         <img
                             src={profile}
                             alt="Your Portrait"

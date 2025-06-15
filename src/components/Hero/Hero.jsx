@@ -26,7 +26,7 @@ const Hero = () => {
   }, [currentRole]);
 
   return (
-    <section className="flex flex-col md:flex-row items-center justify-between min-h-screen px-1 sm:px-8 md:px-20 py-10 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
+    <section className="flex flex-col md:flex-row items-center justify-between py-10 h-[550px] px-4 sm:px-8 md:px-20  bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
       {/* Left: Photo with animation */}
       <div className="flex-1 flex justify-center items-center mb-8 md:mb-0">
         <div className="relative group">

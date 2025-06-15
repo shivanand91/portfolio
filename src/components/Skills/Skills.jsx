@@ -45,8 +45,8 @@ const skills = [
 
 const Skills = () => {
     return (
-        <section className="w-full min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 flex flex-col justify-center items-center py-0">
-            <div className="w-full max-w-7xl px-4 py-16">
+        <section className="w-full bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 flex flex-col justify-center items-center py-12">
+            <div className="w-full max-w-7xl px-4">
                 <h2 className="text-5xl font-bold text-center text-white mb-16 tracking-tight">
                     Skills
                 </h2>

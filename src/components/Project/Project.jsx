@@ -6,8 +6,16 @@ import github from '../../assets/github.png'
 import YouTube from '../../assets/YouTube.png'
 import Employee from '../../assets/Employee.png'
 import CRUD from '../../assets/CRUD.png'
+import thinkboard from '../../assets/thinkboard.png';
 
 const projects = [
+    {
+        title: 'GitHub InfThinkBoard – A MERN Stack Note-Taking App 🧠o Fe',
+        description: 'Proud to share my latest Full-Stack MERN project — built from scratch to production! ThinkBoard is a responsive and beginner-friendly note-taking app that lets users easily create, update, and delete notes with a title and content.',
+        image: thinkboard,
+        github: 'https://github.com/shivanand91/thinkboard',
+        demo: 'https://thinkboard-aixs.onrender.com/',
+    },
     {
         title: 'GitHub Info Fetcher',
         description: 'A tool to fetch and display GitHub user information, repositories, and more.',
